@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/xml-parser', [MarcParserController::class, 'Parse']);
+Route::get('/', [MarcParserController::class, 'Parse']);
